@@ -4,9 +4,9 @@ Forecasting weekly wholesale dry white maize prices for the Zindi **agriBORA Com
 
 ## What’s included
 
-- `reports/eda_summary.md` for the competition-focused EDA write-up
-- `scripts/generate_submission.py` for generating the submission file
-- `src/maize_price_prediction/forecast.py` for the model and feature pipeline
+- `eda_summary.md` for the competition-focused EDA write-up
+- `generate_submission.py` for generating the submission file
+- `forecast.py` for the model and feature pipeline
 
 ## Main idea
 
@@ -32,7 +32,7 @@ The modeling workflow combines:
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python3 scripts/generate_submission.py
+python3 generate_submission.py
 ```
 
 ## Project layout
